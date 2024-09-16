@@ -1,0 +1,1422 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Tourista</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icon Font Stylesheet -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link
+      href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <div class="container-xxl bg-white p-0">
+      <!-- Spinner Start -->
+      <div
+        id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+      >
+        <div
+          class="spinner-border text-primary"
+          style="width: 3rem; height: 3rem"
+          role="status"
+        >
+          <span class="sr-only">Loading...</span>
+        </div>
+      </div>
+      <!-- Spinner End -->
+
+      <!-- Header Start -->
+      <div class="container-fluid bg-dark px-0">
+        <div class="row gx-0">
+          <div class="col-lg-3 bg-primary d-none d-lg-block">
+            <a
+              href="index.html"
+              class="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center"
+            >
+              <img src="img/logo.jpeg" class="w-100 p-4" alt="" />
+            </a>
+          </div>
+          <div class="col-lg-9">
+            <div class="row gx-0 bg-white d-none d-lg-flex">
+              <div class="col-lg-7 px-5 text-start">
+                <div class="h-100 d-inline-flex align-items-center py-2 me-4">
+                  <i class="fa fa-envelope text-dark me-2"></i>
+                  <p class="mb-0">support@tourista.com</p>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center py-2">
+                  <i class="fa-solid fa-phone text-dark me-2"></i>
+                  <p class="mb-0">+712 753 9632</p>
+                </div>
+              </div>
+              <div class="col-lg-5 px-5 text-end">
+                <div class="d-inline-flex align-items-center py-2">
+                  <a class="me-3" href=""><i class="fab fa-facebook-f"></i></a>
+                  <a class="me-3" href=""><i class="fab fa-twitter"></i></a>
+                  <a class="me-3" href=""><i class="fab fa-linkedin-in"></i></a>
+                  <a class="me-3" href=""><i class="fab fa-instagram"></i></a>
+                  <a class="" href=""><i class="fab fa-youtube"></i></a>
+                </div>
+              </div>
+            </div>
+            <nav
+              class="navbar navbar-expand-lg bg-primary navbar-dark p-3 p-lg-0"
+            >
+              <a href="index.html" class="navbar-brand d-block d-lg-none">
+                <h1 class="m-0 text-primary text-uppercase">Hotelier</h1>
+              </a>
+              <button
+                type="button"
+                class="navbar-toggler"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div
+                class="collapse navbar-collapse justify-content-between"
+                id="navbarCollapse"
+              >
+                <div class="navbar-nav mr-auto py-0">
+                  <a href="index.html" class="nav-item nav-link">Home</a>
+                  <a href="about.html" class="nav-item nav-link">About</a>
+                  <a href="service.html" class="nav-item nav-link">Services</a>
+                  <a href="Package.html" class="nav-item nav-link active"
+                    >Packages</a
+                  >
+                  <div class="nav-item dropdown">
+                    <a
+                      href="#"
+                      class="nav-link dropdown-toggle"
+                      data-bs-toggle="dropdown"
+                      >Pages</a
+                    >
+                    <div class="dropdown-menu rounded-0 m-0">
+                      <a href="booking.html" class="dropdown-item">Booking</a>
+                      <a href="team.html" class="dropdown-item">Our Team</a>
+                      <a href="testimonial.html" class="dropdown-item"
+                        >Testimonial</a
+                      >
+                    </div>
+                  </div>
+                  <a href="contact.html" class="nav-item nav-link">Contact</a>
+                </div>
+                <a
+                  href="https://htmlcodex.com/hotel-html-template-pro"
+                  class="btn btn-primary rounded-0 py-4 px-md-5 d-none d-lg-block"
+                  >luxury packages<i class="fa fa-arrow-right ms-3"></i
+                ></a>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <!-- Header End -->
+
+      <!-- Page Header Start -->
+      <div
+        class="container-fluid page-header mb-5 p-0"
+        style="background-image: url(img/package.jpeg)"
+      >
+        <div class="container-fluid page-header-inner py-5">
+          <div class="container text-center pb-5">
+            <h1 class="display-3 text-white mb-3 animated slideInDown">
+              Packages
+            </h1>
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb justify-content-center text-uppercase">
+                <li class="breadcrumb-item">
+                  <a href="#" class="text-white">Home</a>
+                </li>
+                <li class="breadcrumb-item">
+                  <a href="#" class="text-white">Pages</a>
+                </li>
+                <li
+                  class="breadcrumb-item text-primary active"
+                  aria-current="page"
+                >
+                  Packages
+                </li>
+              </ol>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <!-- Page Header End -->
+
+      <!-- Booking Start -->
+      <div
+        class="container-fluid booking pb-5 wow fadeIn"
+        data-wow-delay="0.1s"
+      >
+        <div class="container">
+          <div class="bg-white shadow" style="padding: 35px">
+            <div class="row g-2">
+              <div class="col-md-10">
+                <div class="row g-2">
+                  <div class="col-md-3">
+                    <div class="date" id="date1" data-target-input="nearest">
+                      <input
+                        type="text"
+                        class="form-control datetimepicker-input"
+                        placeholder="Check in"
+                        data-target="#date1"
+                        data-toggle="datetimepicker"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="date" id="date2" data-target-input="nearest">
+                      <input
+                        type="text"
+                        class="form-control datetimepicker-input"
+                        placeholder="Check out"
+                        data-target="#date2"
+                        data-toggle="datetimepicker"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <select class="form-select">
+                      <option selected>Adult</option>
+                      <option value="1">Adult 1</option>
+                      <option value="2">Adult 2</option>
+                      <option value="3">Adult 3</option>
+                    </select>
+                  </div>
+                  <div class="col-md-3">
+                    <select class="form-select">
+                      <option selected>Child</option>
+                      <option value="1">Child 1</option>
+                      <option value="2">Child 2</option>
+                      <option value="3">Child 3</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-2">
+                <button class="btn btn-primary w-100">Submit</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Booking End -->
+
+      <!-- Package Start -->
+      <div class="container-xxl py-5">
+        <div class="container">
+          <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <h6 class="section-title text-center text-primary text-uppercase">
+              Our Packages
+            </h6>
+            <h1 class="mb-5">
+              Explore Our
+              <span class="text-primary text-uppercase">Packages</span>
+            </h1>
+          </div>
+          <div class="row g-4">
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+              <div class="Package-item shadow rounded overflow-hidden">
+                <div class="position-relative">
+                  <img class="img-fluid" src="img/Package-1.jpg" alt="" />
+                  <small
+                    class="position-absolute start-0 top-100 translate-middle-y bg-info text-white rounded py-1 px-3 ms-4"
+                    >30,000 Rs/Person</small
+                  >
+                </div>
+                <div class="p-4 mt-2">
+                  <div class="d-flex justify-content-between mb-3">
+                    <h5 class="mb-0">Honeymoon Special</h5>
+                    <div class="ps-2">
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                    </div>
+                  </div>
+                  <div class="d-flex mb-3">
+                    <small class="border-end me-3 pe-3"
+                      ><i class="fa-solid text-primary me-2 fa-location-dot"></i
+                      >Travel 6 Days</small
+                    >
+                    <small class="border-end me-3 pe-3"
+                      ><i class="fa-solid fa-globe text-primary me-2"></i>1
+                      Country</small
+                    >
+                    <small
+                      ><i class="fa-solid fa-city text-primary me-2"></i>5
+                      Cities</small
+                    >
+                  </div>
+                  <p class="text-body mb-3">
+                    Celebrate your love in style with our honeymoon special
+                    package. From breathtaking views to candlelit dinners, we
+                    ensure every moment is magical, offering the perfect blend
+                    of romance and relaxation.
+                  </p>
+                  <div class="d-flex justify-content-center">
+                    <a
+                      class="btn btn-sm btn-primary rounded py-2 px-4"
+                      data-bs-toggle="modal"
+                      href="#honeymoon"
+                      data
+                      >View Packages</a
+                    >
+                    <!-- <a class="btn btn-sm btn-dark rounded py-2 px-4" href=""
+                      >Book Now</a
+                    > -->
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Honeymoon Special ends -->
+
+            <!-- Honeymoon starts Modal -->
+            <div
+              class="modal fade"
+              id="honeymoon"
+              tabindex="-1"
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-fullscreen">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">
+                      Honeymoon Packages Plans
+                    </h1>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body" style="background-color: #f5f5f5">
+                    <div class="row justify-content-center">
+                      <!-- Card one starts -->
+                      <div
+                        class="card bg-light rounded-3 mb-3 p-3"
+                        style="max-width: 940px"
+                      >
+                        <div class="row g-0">
+                          <div class="col-md-3">
+                            <img
+                              src="https://img.veenaworld.com/group-tours/india/himachal-pradesh/hphps/hphps-thb-hphps-2952024.jpg"
+                              class="img-fluid h-100 align-self-center rounded-3"
+                              alt="..."
+                            />
+                          </div>
+                          <div class="col-md-6">
+                            <div class="card-body">
+                              <span
+                                class="badge rounded text-danger me-2 border border-danger mb-3"
+                                >Honeymoon Special</span
+                              >
+                              <span
+                                class="badge rounded bg-warning border border-danger mb-3"
+                                >Durga Puja Special</span
+                              >
+
+                              <h5 class="card-title">
+                                Honeymoon Special Shimla Manali
+                              </h5>
+                              <p class="card-text">
+                                Celebrate love in Shimla-Manali with scenic
+                                views, romantic stays, and unforgettable
+                                mountain adventures.
+                              </p>
+                              <p class="card-text">
+                                <span
+                                  ><small class="border-end me-3 pe-3"
+                                    ><i
+                                      class="fa-solid text-danger me-2 fa-location-dot"
+                                    ></i
+                                    >Travel 6 Days</small
+                                  >
+                                  <small class="border-end me-3 pe-3"
+                                    ><i
+                                      class="fa-solid fa-globe text-danger me-2"
+                                    ></i
+                                    >1 Country</small
+                                  >
+                                  <small
+                                    ><i
+                                      class="fa-solid fa-city text-danger me-2"
+                                    ></i
+                                    >5 Cities</small
+                                  ></span
+                                >
+                              </p>
+                              <p class="card-text">
+                                <i
+                                  class="fa-solid text-warning me-1 fa-star"
+                                ></i
+                                ><i
+                                  class="fa-solid text-warning me-1 fa-star"
+                                ></i
+                                ><i
+                                  class="fa-solid text-warning me-1 fa-star"
+                                ></i
+                                ><i
+                                  class="fa-solid text-warning me-1 fa-star"
+                                ></i
+                                ><i
+                                  class="fa-solid text-warning me-1 fa-star"
+                                ></i>
+                                <small>43 Reviews</small>
+                              </p>
+                            </div>
+                          </div>
+                          <div class="col-3">
+                            <div class="card-body text-end">
+                              <h6 class="card-title text-success">
+                                SUPER DEAL PRICE
+                              </h6>
+                              <small class="card-text">Starts from</small>
+                              <p class="card-text m-0">
+                                <i
+                                  class="fa-solid text-bg-danger fa-indian-rupee-sign"
+                                ></i>
+                                30,000
+                              </p>
+                              <p class="card-text m-0">
+                                <small>per person on twin sharing</small>
+                              </p>
+                              <button
+                                type="button"
+                                class="mb-2 btn btn-outline-success rounded"
+                              >
+                                Book Now
+                              </button>
+
+                              <p class="card-text">
+                                <small>Hurry up! only 8 seats remaining</small>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- card one ends -->
+
+                      <!-- Card two starts -->
+                      <div
+                        class="card rounded-3 mb-3 p-3"
+                        style="max-width: 940px"
+                      >
+                        <div class="row g-0">
+                          <div class="col-md-3">
+                            <img
+                              src="https://img.veenaworld.com/group-tours/india/jammu-and-kashmir/jkhp/hlt1-jkhp-412024.jpg"
+                              class="img-fluid h-100 align-self-center rounded-3"
+                              alt="..."
+                            />
+                          </div>
+                          <div class="col-md-6">
+                            <div class="card-body">
+                              <span
+                                class="badge rounded text-danger border border-danger mb-3"
+                                >Honeymoon Special</span
+                              >
+
+                              <h5 class="card-title">
+                                Honeymoon Special Kashmir
+                              </h5>
+                              <p class="card-text">
+                                Discover romance in Kashmir with scenic views,
+                                cozy houseboats, and unforgettable honeymoon
+                                experiences.
+                              </p>
+
+                              <p class="card-text">
+                                <span
+                                  ><small class="border-end me-3 pe-3"
+                                    ><i
+                                      class="fa-solid text-danger me-2 fa-location-dot"
+                                    ></i
+                                    >Travel 8 Days</small
+                                  >
+                                  <small class="border-end me-3 pe-3"
+                                    ><i
+                                      class="fa-solid fa-globe text-danger me-2"
+                                    ></i
+                                    >1 Country</small
+                                  >
+                                  <small
+                                    ><i
+                                      class="fa-solid fa-city text-danger me-2"
+                                    ></i
+                                    >6 Cities</small
+                                  ></span
+                                >
+                              </p>
+                              <p class="card-text">
+                                <i
+                                  class="fa-solid text-warning me-1 fa-star"
+                                ></i
+                                ><i
+                                  class="fa-solid text-warning me-1 fa-star"
+                                ></i
+                                ><i
+                                  class="fa-solid text-warning me-1 fa-star"
+                                ></i
+                                ><i
+                                  class="fa-solid text-warning me-1 fa-star"
+                                ></i
+                                ><i
+                                  class="fa-solid text-warning me-1 fa-star-half"
+                                ></i>
+                                <small>50 Reviews</small>
+                              </p>
+                            </div>
+                          </div>
+                          <div class="col-3">
+                            <div class="card-body text-end">
+                              <h6 class="card-title text-success">
+                                SUPER DEAL PRICE
+                              </h6>
+                              <small class="card-text">Starts from</small>
+                              <p class="card-text">
+                                <i
+                                  class="fa-solid text-bg-danger fa-indian-rupee-sign"
+                                ></i>
+                                70,000
+                              </p>
+                              <button
+                                type="button"
+                                class="mb-2 btn btn-outline-success rounded"
+                              >
+                                Book Now
+                              </button>
+
+                              <p class="card-text">
+                                <small>Hurry up! only 4 seats remaining</small>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- Card two ends -->
+
+                      <!-- Card three starts -->
+                      <div
+                        class="card rounded-3 mb-3 p-3"
+                        style="max-width: 940px"
+                      >
+                        <div class="row g-0">
+                          <div class="col-md-3">
+                            <img
+                              src="https://img.veenaworld.com/group-tours/world/south-east-asia/asha/asha-thb.jpg"
+                              class="img-fluid h-100 align-self-center rounded-3"
+                              alt="..."
+                            />
+                          </div>
+                          <div class="col-md-6">
+                            <div class="card-body">
+                              <span
+                                class="badge rounded text-danger border border-danger mb-3"
+                                >Honeymoon Special</span
+                              >
+
+                              <h5 class="card-title">
+                                Honeymoon Special Thailand
+                              </h5>
+                              <p class="card-text">
+                                Experience romance in Thailand with tropical
+                                beaches, luxury resorts, and unforgettable
+                                moments in exotic paradise.
+                              </p>
+
+                              <p class="card-text">
+                                <span
+                                  ><small class="border-end me-3 pe-3"
+                                    ><i
+                                      class="fa-solid text-danger me-2 fa-location-dot"
+                                    ></i
+                                    >Travel 6 Days</small
+                                  >
+                                  <small class="border-end me-3 pe-3"
+                                    ><i
+                                      class="fa-solid fa-globe text-danger me-2"
+                                    ></i
+                                    >1 Country</small
+                                  >
+                                  <small
+                                    ><i
+                                      class="fa-solid fa-city text-danger me-2"
+                                    ></i
+                                    >4 Cities</small
+                                  ></span
+                                >
+                              </p>
+                            </div>
+                          </div>
+                          <div class="col-3">
+                            <div class="card-body text-end">
+                              <h6 class="card-title text-success">
+                                SUPER DEAL PRICE
+                              </h6>
+                              <small class="card-text">Starts from</small>
+                              <p class="card-text">
+                                <i
+                                  class="fa-solid text-bg-danger fa-indian-rupee-sign"
+                                ></i>
+                                75,000
+                              </p>
+                              <button
+                                type="button"
+                                class="mb-2 btn btn-outline-success rounded"
+                              >
+                                Book Now
+                              </button>
+
+                              <p class="card-text">
+                                <small>Newly Added!</small>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- card three ends -->
+                    </div>
+                  </div>
+                  <!-- <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                  <button type="button" class="btn btn-primary">
+                    Save changes
+                  </button>
+                </div> -->
+                </div>
+              </div>
+            </div>
+            <!-- Modal honeymoon ends -->
+
+            <!-- Road trip Start -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+              <div class="Package-item shadow rounded overflow-hidden">
+                <div class="position-relative">
+                  <img class="img-fluid" src="img/Package-2.jpg" alt="" />
+                  <small
+                    class="position-absolute start-0 top-100 translate-middle-y bg-info text-white rounded py-1 px-3 ms-4"
+                    >1,80,000 /Person on Twin Sharing</small
+                  >
+                </div>
+                <div class="p-4 mt-2">
+                  <div class="d-flex justify-content-between mb-3">
+                    <h5 class="mb-0">Road Trip</h5>
+                    <div class="ps-2">
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                    </div>
+                  </div>
+                  <div class="d-flex mb-3">
+                    <small class="border-end me-3 pe-3"
+                      ><i class="fa-solid text-primary me-2 fa-location-dot"></i
+                      >Travel 30 Days</small
+                    >
+                    <small class="border-end me-3 pe-3"
+                      ><i class="fa-solid fa-globe text-primary me-2"></i>1
+                      Country</small
+                    >
+                    <small
+                      ><i class="fa-solid fa-city text-primary me-2"></i>27
+                      Cities</small
+                    >
+                  </div>
+                  <p class="text-body mb-3">
+                    Embark on the ultimate road trip adventure with our
+                    specially curated packages. Discover scenic routes, hidden
+                    gems, and thrilling destinations, all while enjoying the
+                    freedom of the open road and unforgettable experiences.
+                  </p>
+                  <div class="d-flex justify-content-center">
+                    <a
+                      class="btn btn-sm btn-primary rounded py-2 px-4"
+                      data-bs-toggle="modal"
+                      href="#road"
+                      data
+                      >View Packages</a
+                    >
+                    <!-- <a class="btn btn-sm btn-dark rounded py-2 px-4" href=""
+                      >Book Now</a
+                    > -->
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Road trip ends -->
+
+            <!-- road trip starts Modal -->
+            <div
+              class="modal fade"
+              id="road"
+              tabindex="-1"
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-fullscreen">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">
+                      Road Trip Packages Plans
+                    </h1>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body" style="background-color: #f5f5f5">
+                    <div class="row justify-content-center">
+                      <!--road trip  Card one starts -->
+                      <div
+                        class="card bg-light rounded-3 mb-3 p-3"
+                        style="max-width: 940px"
+                      >
+                        <div class="row g-0">
+                          <div class="col-md-3">
+                            <img
+                              src="https://img.veenaworld.com/group-tours/india/gujarat/rtgp/klwa-i-thb-klwl-672021-rtgp-18102021.jpg"
+                              class="img-fluid h-100 align-self-center rounded-3"
+                              alt="..."
+                            />
+                          </div>
+                          <div class="col-md-6">
+                            <div class="card-body">
+                              <span
+                                class="badge rounded text-warning border border-warning mb-3"
+                                >Road Trip Special</span
+                              >
+
+                              <h5 class="card-title">
+                                The Great Indian Peninsula Road Trip
+                              </h5>
+                              <p class="card-text">
+                                Explore India's peninsula on an epic road trip,
+                                discovering scenic landscapes, historic cities,
+                                and beaches.
+                              </p>
+                              <p class="card-text">
+                                <span
+                                  ><small class="border-end me-3 pe-3"
+                                    ><i
+                                      class="fa-solid text-danger me-2 fa-location-dot"
+                                    ></i
+                                    >Travel 50 Days</small
+                                  >
+                                  <small class="border-end me-3 pe-3"
+                                    ><i
+                                      class="fa-solid fa-globe text-danger me-2"
+                                    ></i
+                                    >1 Country</small
+                                  >
+                                  <small
+                                    ><i
+                                      class="fa-solid fa-city text-danger me-2"
+                                    ></i
+                                    >45 Cities</small
+                                  ></span
+                                >
+                              </p>
+                              <p class="card-text">
+                                <i
+                                  class="fa-solid text-warning me-1 fa-star"
+                                ></i
+                                ><i
+                                  class="fa-solid text-warning me-1 fa-star"
+                                ></i
+                                ><i
+                                  class="fa-solid text-warning me-1 fa-star"
+                                ></i
+                                ><i
+                                  class="fa-solid text-warning me-1 fa-star"
+                                ></i
+                                ><i
+                                  class="fa-solid text-warning me-1 fa-star"
+                                ></i>
+                                <small>150 Reviews</small>
+                              </p>
+                            </div>
+                          </div>
+                          <div class="col-3">
+                            <div class="card-body text-end">
+                              <h6 class="card-title text-success">
+                                SUPER DEAL PRICE
+                              </h6>
+                              <small class="card-text">Starts from</small>
+                              <p class="card-text">
+                                <i
+                                  class="fa-solid text-bg-danger fa-indian-rupee-sign"
+                                ></i>
+                                2,90,000
+                              </p>
+                              <button
+                                type="button"
+                                class="mb-2 btn btn-outline-success rounded"
+                              >
+                                Book Now
+                              </button>
+
+                              <p class="card-text">
+                                <small>Updated 1 day ago</small>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <!--road trip  card one ends -->
+
+                      <!-- Road Trip card two starts -->
+
+                      <div
+                        class="card rounded-3 mb-3 p-3"
+                        style="max-width: 940px"
+                      >
+                        <div class="row g-0">
+                          <div class="col-md-3">
+                            <img
+                              src="https://img.veenaworld.com/group-tours/india/gujarat/rtgg/tbh-rtgg-18102021.jpg"
+                              class="img-fluid h-100 align-self-center rounded-3"
+                              alt="..."
+                            />
+                          </div>
+                          <div class="col-md-6">
+                            <div class="card-body">
+                              <span
+                                class="badge rounded text-warning border border-warning mb-3"
+                                >Road Trip Special</span
+                              >
+
+                              <h5 class="card-title">
+                                Gujarat to Guwahati Road Trip
+                              </h5>
+                              <p class="card-text">
+                                Embark on a Gujarat to Guwahati road trip,
+                                exploring diverse cultures, scenic landscapes,
+                                and adventure.
+                              </p>
+                              <p class="card-text">
+                                <span
+                                  ><small class="border-end me-3 pe-3"
+                                    ><i
+                                      class="fa-solid text-danger me-2 fa-location-dot"
+                                    ></i
+                                    >Travel 30 Days</small
+                                  >
+                                  <small class="border-end me-3 pe-3"
+                                    ><i
+                                      class="fa-solid fa-globe text-danger me-2"
+                                    ></i
+                                    >1 Country</small
+                                  >
+                                  <small
+                                    ><i
+                                      class="fa-solid fa-city text-danger me-2"
+                                    ></i>
+                                    Cities</small
+                                  ></span
+                                >
+                              </p>
+                              <p class="card-text">
+                                <i
+                                  class="fa-solid text-warning me-1 fa-star"
+                                ></i
+                                ><i
+                                  class="fa-solid text-warning me-1 fa-star"
+                                ></i
+                                ><i
+                                  class="fa-solid text-warning me-1 fa-star"
+                                ></i
+                                ><i
+                                  class="fa-solid text-warning me-1 fa-star-half"
+                                ></i>
+                                <small>100 Reviews</small>
+                              </p>
+                            </div>
+                          </div>
+                          <div class="col-3">
+                            <div class="card-body text-end">
+                              <h6 class="card-title text-success">
+                                SUPER DEAL PRICE
+                              </h6>
+                              <small class="card-text">Starts from</small>
+                              <p class="card-text">
+                                <i
+                                  class="fa-solid text-bg-danger fa-indian-rupee-sign"
+                                ></i>
+                                2,90,000
+                              </p>
+                              <button
+                                type="button"
+                                class="mb-2 btn btn-outline-success rounded"
+                              >
+                                Book Now
+                              </button>
+
+                              <p class="card-text">
+                                <small>Updated 1 day ago</small>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- <div class="modal-footer">
+                                        <button
+                                          type="button"
+                                          class="btn btn-secondary"
+                                          data-bs-dismiss="modal"
+                                        >
+                                          Close
+                                        </button>
+                                        <button type="button" class="btn btn-primary">
+                                          Save changes
+                                        </button>
+                                      </div> -->
+                </div>
+              </div>
+            </div>
+            <!-- Road Trip  ends -->
+
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+              <div class="Package-item shadow rounded overflow-hidden">
+                <div class="position-relative">
+                  <img class="img-fluid" src="img/Package-3.jpg" alt="" />
+                  <small
+                    class="position-absolute start-0 top-100 translate-middle-y bg-info text-white rounded py-1 px-3 ms-4"
+                    >32,000 /Person on Twin Sharing</small
+                  >
+                </div>
+                <div class="p-4 mt-2">
+                  <div class="d-flex justify-content-between mb-3">
+                    <h5 class="mb-0">Women's Special</h5>
+                    <div class="ps-2">
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                    </div>
+                  </div>
+                  <div class="d-flex mb-3">
+                    <small class="border-end me-3 pe-3"
+                      ><i class="fa-solid text-primary me-2 fa-location-dot"></i
+                      >Travel 6 Days</small
+                    >
+                    <small class="border-end me-3 pe-3"
+                      ><i class="fa-solid fa-globe text-primary me-2"></i>1
+                      Country</small
+                    >
+                    <small
+                      ><i class="fa-solid fa-city text-primary me-2"></i>5
+                      Cities</small
+                    >
+                  </div>
+                  <p class="text-body mb-3">
+                    Explore the world confidently with our women’s special
+                    trips. Tailored for women by women, these journeys offer
+                    safety, comfort, and unforgettable adventures while
+                    fostering connections with fellow travelers.
+                  </p>
+                  <div class="d-flex justify-content-between">
+                    <a class="btn btn-sm btn-primary rounded py-2 px-4" href=""
+                      >View Detail</a
+                    >
+                    <a class="btn btn-sm btn-dark rounded py-2 px-4" href=""
+                      >Book Now</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+              <div class="Package-item shadow rounded overflow-hidden">
+                <div class="position-relative">
+                  <img class="img-fluid" src="img/Package-1.jpg" alt="" />
+                  <small
+                    class="position-absolute start-0 top-100 translate-middle-y bg-info text-white rounded py-1 px-3 ms-4"
+                    >35,000 Rs/Person on Twin Sharing</small
+                  >
+                </div>
+                <div class="p-4 mt-2">
+                  <div class="d-flex justify-content-between mb-3">
+                    <h5 class="mb-0">Short Trips</h5>
+                    <div class="ps-2">
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <!-- <small class="fa fa-star text-primary"></small> -->
+                    </div>
+                  </div>
+                  <div class="d-flex mb-3">
+                    <small class="border-end me-3 pe-3"
+                      ><i class="fa-solid text-primary me-2 fa-location-dot"></i
+                      >Travel 5 Days</small
+                    >
+                    <small class="border-end me-3 pe-3"
+                      ><i class="fa-solid fa-globe text-primary me-2"></i>1
+                      Country</small
+                    >
+                    <small
+                      ><i class="fa-solid fa-city text-primary me-2"></i>3
+                      Cities</small
+                    >
+                  </div>
+                  <p class="text-body mb-3">
+                    Experience the best of short getaways with our carefully
+                    curated short trip packages. Perfect for weekend escapes,
+                    these trips offer relaxation, adventure, and exploration
+                    without the need for extended travel time.
+                  </p>
+                  <div class="d-flex justify-content-between">
+                    <a class="btn btn-sm btn-primary rounded py-2 px-4" href=""
+                      >View Detail</a
+                    >
+                    <a class="btn btn-sm btn-dark rounded py-2 px-4" href=""
+                      >Book Now</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+              <div class="Package-item shadow rounded overflow-hidden">
+                <div class="position-relative">
+                  <img class="img-fluid" src="img/Package-2.jpg" alt="" />
+                  <small
+                    class="position-absolute start-0 top-100 translate-middle-y bg-info text-white rounded py-1 px-3 ms-4"
+                    >38,000 /Person on Twin Sharing</small
+                  >
+                </div>
+                <div class="p-4 mt-2">
+                  <div class="d-flex justify-content-between mb-3">
+                    <h5 class="mb-0">Senior's Special</h5>
+                    <div class="ps-2">
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <!-- <small class="fa fa-star text-primary"></small> -->
+                      <small class="fa fa-star text-primary"></small>
+                    </div>
+                  </div>
+                  <div class="d-flex mb-3">
+                    <small class="border-end me-3 pe-3"
+                      ><i class="fa-solid text-primary me-2 fa-location-dot"></i
+                      >Travel 6 Days</small
+                    >
+                    <small class="border-end me-3 pe-3"
+                      ><i class="fa-solid fa-globe text-primary me-2"></i>1
+                      Country</small
+                    >
+                    <small
+                      ><i class="fa-solid fa-city text-primary me-2"></i>5
+                      Cities</small
+                    >
+                  </div>
+                  <p class="text-body mb-3">
+                    Tailored for comfort and ease, our Senior Special package
+                    offers relaxed, and senior-friendly accommodations. Enjoy
+                    beautiful destinations with personalized care, ensuring a
+                    worry-free and enjoyable travel experience for seniors.
+                  </p>
+                  <div class="d-flex justify-content-between">
+                    <a class="btn btn-sm btn-primary rounded py-2 px-4" href=""
+                      >View Detail</a
+                    >
+                    <a class="btn btn-sm btn-dark rounded py-2 px-4" href=""
+                      >Book Now</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+              <div class="Package-item shadow rounded overflow-hidden">
+                <div class="position-relative">
+                  <img class="img-fluid" src="img/Package-3.jpg" alt="" />
+                  <small
+                    class="position-absolute start-0 top-100 translate-middle-y bg-info text-white rounded py-1 px-3 ms-4"
+                    >30,000 /Person on Twin Sharing</small
+                  >
+                </div>
+                <div class="p-4 mt-2">
+                  <div class="d-flex justify-content-between mb-3">
+                    <h5 class="mb-0">Family Special</h5>
+                    <div class="ps-2">
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                      <small class="fa fa-star text-primary"></small>
+                    </div>
+                  </div>
+                  <div class="d-flex mb-3">
+                    <small class="border-end me-3 pe-3"
+                      ><i class="fa-solid text-primary me-2 fa-location-dot"></i
+                      >Travel 6 Days</small
+                    >
+                    <small class="border-end me-3 pe-3"
+                      ><i class="fa-solid fa-globe text-primary me-2"></i>1
+                      Country</small
+                    >
+                    <small
+                      ><i class="fa-solid fa-city text-primary me-2"></i>5
+                      Cities</small
+                    >
+                  </div>
+                  <p class="text-body mb-3">
+                    Create unforgettable family memories with our Family Special
+                    package. Enjoy exciting activities, family-friendly
+                    accommodations, and destinations that cater to all ages,
+                    ensuring fun, adventure, and bonding for everyone on your
+                    trip.
+                  </p>
+                  <div class="d-flex justify-content-between">
+                    <a class="btn btn-sm btn-primary rounded py-2 px-4" href=""
+                      >View Detail</a
+                    >
+                    <a class="btn btn-sm btn-dark rounded py-2 px-4" href=""
+                      >Book Now</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Package End -->
+
+      <!-- Testimonial Start -->
+      <div
+        class="container-xxl testimonial my-5 py-5 bg-dark wow zoomIn"
+        data-wow-delay="0.1s"
+      >
+        <div class="container">
+          <div class="owl-carousel testimonial-carousel py-5">
+            <div
+              class="testimonial-item position-relative bg-white rounded overflow-hidden"
+            >
+              <p>
+                Our honeymoon with Tourista was magical! From breathtaking views
+                to romantic dinners, every detail was perfect. We had an
+                unforgettable experience, and the entire trip was so
+                well-organized!
+              </p>
+              <div class="d-flex align-items-center">
+                <img
+                  class="img-fluid flex-shrink-0 rounded"
+                  src="img/testimonial-1.jpg"
+                  style="width: 45px; height: 45px"
+                />
+                <div class="ps-3">
+                  <h6 class="fw-bold mb-1">Arun Mistry</h6>
+                  <small>Honeymoon Package</small>
+                </div>
+              </div>
+              <i
+                class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"
+              ></i>
+            </div>
+            <div
+              class="testimonial-item position-relative bg-white rounded overflow-hidden"
+            >
+              <p>
+                Tourista made our family vacation stress-free and fun! The kids
+                loved the activities, and we enjoyed the beautiful
+                accommodations. It was the perfect mix of relaxation and
+                adventure for everyone.
+              </p>
+              <div class="d-flex align-items-center">
+                <img
+                  class="img-fluid flex-shrink-0 rounded"
+                  src="img/testimonial-3.jpg"
+                  style="width: 45px; height: 45px"
+                />
+                <div class="ps-3">
+                  <h6 class="fw-bold mb-1">Sahil Joshi</h6>
+                  <small>Family Package</small>
+                </div>
+              </div>
+              <i
+                class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"
+              ></i>
+            </div>
+            <div
+              class="testimonial-item position-relative bg-white rounded overflow-hidden"
+            >
+              <p>
+                I joined Tourista's women’s trip, and it was empowering and
+                safe. The destinations were stunning, and I made lifelong
+                friends. Thank you for crafting such a memorable and inspiring
+                journey!
+              </p>
+              <div class="d-flex align-items-center">
+                <img
+                  class="img-fluid flex-shrink-0 rounded"
+                  src="img/testimonial-4 (2).jpg"
+                  style="width: 45px; height: 45px"
+                />
+                <div class="ps-3">
+                  <h6 class="fw-bold mb-1">Priya Lokhande</h6>
+                  <small>Women’s Special Package</small>
+                </div>
+              </div>
+              <i
+                class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"
+              ></i>
+            </div>
+            <div
+              class="testimonial-item position-relative bg-white rounded overflow-hidden"
+            >
+              <p>
+                Our road trip with Tourista was amazing! The scenic routes and
+                hidden gems we discovered were unforgettable. The entire
+                experience felt adventurous yet comfortable. We can’t wait for
+                our next trip!
+              </p>
+              <div class="d-flex align-items-center">
+                <img
+                  class="img-fluid flex-shrink-0 rounded"
+                  src="img/testimonial-3.jpg"
+                  style="width: 45px; height: 45px"
+                />
+                <div class="ps-3">
+                  <h6 class="fw-bold mb-1">Tony kaloy</h6>
+                  <small>Road Trip Package</small>
+                </div>
+              </div>
+              <i
+                class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"
+              ></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Testimonial End -->
+      <!-- Newsletter Start -->
+      <div class="container newsletter mt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="row justify-content-center">
+          <div class="col-lg-10 border rounded p-1">
+            <div class="border rounded text-center p-1">
+              <div class="bg-white rounded text-center p-5">
+                <h4 class="mb-4">
+                  Join Our
+                  <span class="text-primary text-uppercase"
+                    >Travel Community</span
+                  >
+                </h4>
+                <div class="position-relative mx-auto" style="max-width: 400px">
+                  <input
+                    class="form-control w-100 py-3 ps-4 pe-5"
+                    type="text"
+                    placeholder="Enter your email"
+                  />
+                  <button
+                    type="button"
+                    class="btn btn-primary py-2 px-3 position-absolute top-0 end-0 mt-2 me-2"
+                  >
+                    Submit
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Newsletter Start -->
+
+      <!-- Footer Start -->
+      <div
+        class="container-fluid bg-dark text-light footer wow fadeIn"
+        data-wow-delay="0.1s"
+      >
+        <div class="container pb-5">
+          <div class="row g-5">
+            <div class="col-md-6 col-lg-4">
+              <div class="bg-primary rounded p-4">
+                <a href="index.html"
+                  ><img src="img/logo.jpeg" class="w-75 py-2" alt=""
+                /></a>
+                <p class="text-dark mb-0">
+                  Download
+                  <a
+                    class="text-dark fw-medium"
+                    href="https://htmlcodex.com/hotel-html-template-pro"
+                    >Tourista – exclusive travel packages</a
+                  >, build a professional website for your hotel business and
+                  grab the attention of new visitors upon your site’s launch.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <h6
+                class="section-title text-start text-info text-uppercase mb-4"
+              >
+                Contact
+              </h6>
+              <p class="mb-2">
+                <i class="fa fa-map-marker-alt me-3"></i>Subash Nagar , IT Park
+                , Nagpur
+              </p>
+              <p class="mb-2">
+                <i class="fa fa-phone-alt me-3"></i>+712 753 9632
+              </p>
+              <p class="mb-2">
+                <i class="fa fa-envelope me-3"></i>support@tourista.com
+              </p>
+              <div class="d-flex pt-2">
+                <a class="btn btn-outline-light btn-social" href=""
+                  ><i class="fab fa-twitter"></i
+                ></a>
+                <a class="btn btn-outline-light btn-social" href=""
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+                <a class="btn btn-outline-light btn-social" href=""
+                  ><i class="fab fa-youtube"></i
+                ></a>
+                <a class="btn btn-outline-light btn-social" href=""
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+              </div>
+            </div>
+            <div class="col-lg-5 col-md-12">
+              <div class="row gy-5 g-4">
+                <div class="col-md-6">
+                  <h6
+                    class="section-title text-start text-info text-uppercase mb-4"
+                  >
+                    Company
+                  </h6>
+                  <a class="btn btn-link" href="">About Us</a>
+                  <a class="btn btn-link" href="">Contact Us</a>
+                  <a class="btn btn-link" href="">Privacy Policy</a>
+                  <a class="btn btn-link" href="">Terms & Condition</a>
+                  <a class="btn btn-link" href="">Support</a>
+                </div>
+                <div class="col-md-6">
+                  <h6
+                    class="section-title text-start text-info text-uppercase mb-4"
+                  >
+                    Services
+                  </h6>
+                  <a class="btn btn-link" href="">Exclusive Tour Packages</a>
+                  <a class="btn btn-link" href=""
+                    >Transportation Arrangements</a
+                  >
+                  <a class="btn btn-link" href="">24/7 Customer Support</a>
+                  <a class="btn btn-link" href="">Specialized Group Tours</a>
+                  <a class="btn btn-link" href=""
+                    >Customized Travel Itineraries</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="copyright">
+            <div class="row">
+              <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                &copy; <a class="border-bottom" href="#">Tourista</a>, All Right
+                Reserved.
+
+                <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                Designed By
+                <a class="border-bottom" href="https://htmlcodex.com"
+                  >Tourista Pvt Ltd.</a
+                >
+              </div>
+              <div class="col-md-6 text-center text-md-end">
+                <div class="footer-menu">
+                  <a href="">Home</a>
+                  <a href="">Cookies</a>
+                  <a href="">Help</a>
+                  <a href="">FQAs</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Footer End -->
+
+      <!-- Back to Top -->
+      <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"
+        ><i class="bi bi-arrow-up"></i
+      ></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
