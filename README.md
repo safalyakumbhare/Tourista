@@ -1,6 +1,16 @@
 <h1>Tourista</h1>
 <p>Welcome to <strong>Tourista</strong> – a tours and travel website designed to provide a seamless travel experience for users. Whether you’re looking to explore new destinations, book tours, or gain insights into local attractions, Tourista makes it easy and convenient. Developed with modern web development technologies to deliver a user-friendly interface and dynamic features.</p>
 
+
+
+<h2>Technologies Used</h2>
+<ul>
+    <li><strong>HTML5</strong> for structured content</li>
+    <li><strong>CSS3</strong> for design and layout</li>
+    <li><strong>JavaScript</strong> for interactive elements</li>
+    <li><strong>jQuery</strong> for simplified DOM manipulation and animations</li>
+</ul>
+
 <h2>Features</h2>
 <ul>
     <li>Browse and explore multiple travel destinations</li>
@@ -10,13 +20,7 @@
     <li>Detailed itinerary and package information for each tour</li>
 </ul>
 
-<h2>Technologies Used</h2>
-<ul>
-    <li><strong>HTML5</strong> for structured content</li>
-    <li><strong>CSS3</strong> for design and layout</li>
-    <li><strong>JavaScript</strong> for interactive elements</li>
-    <li><strong>jQuery</strong> for simplified DOM manipulation and animations</li>
-</ul>
+
 
 <h2>Project Structure</h2>
 <ul>
@@ -36,9 +40,3 @@
     <li>Open <strong>index.html</strong> in your browser to view the website</li>
 </ol>
 
-<h2>Contributing</h2>
-<p>Contributions are welcome! Feel free to open an issue or submit a pull request if you have any suggestions for improvement.</p>
-
-
-<h2>Contact</h2>
-<p>For any inquiries, please reach out at <a href="mailto:your-safalyakumbhare@gmail.com">safalyakumbhare@gmai.com</a>.</p>
